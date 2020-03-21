@@ -1,4 +1,4 @@
-#Idle Actions
+# Idle Actions
 Execute configured Actions if x session is idle for given time.
 This script internally uses xprintidle utility from repository.
 
