@@ -1,0 +1,14 @@
+
+;Include the Modules to Polybar
+modules-right =  idleActions
+
+[module/idleActions]
+  type = custom/script
+  ;sleep if idle more than 10 mins
+  ; set path to script
+  exec = ~/path_to_script/idleActions.sh 10
+  ;set time Interval to execute
+  interval = 300
+  ;Formatting
+  format-foreground = #EFEA08
+
